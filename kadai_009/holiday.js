@@ -3,11 +3,8 @@ const holidays = ["元日", "成人の日", "建国記念の日", "天皇誕生�
 for (let i = 0; i <= 15 ; i++) {
     console.log(holidays[i]);
   }
-
-  let num = Math.floor(Math.random() * 15);
-
-  // 変数numの値が0以外である間、変数numの値を出力し続ける
-  while (num !== 0) {
-    num = Math.floor(Math.random() * 15);
-    console.log(holidays[num]);
+  let i = 0
+  while (i<=15) {
+    console.log(holidays[i]);
+    i++
   }
